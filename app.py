@@ -1,14 +1,3 @@
-# app.py
-"""
-Streamlit ACOTAR-style interactive fiction frontend.
-
-How to use:
-- Run with: streamlit run app.py
-- Provide your OpenAI API key in the "OpenAI API Key" box (kept in session only).
-- Create a player character and press "Start Adventure".
-- Use the choice buttons or type a custom action and press "Do custom action".
-"""
-
 import streamlit as st
 import openai
 import json
